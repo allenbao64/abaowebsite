@@ -4,7 +4,7 @@ body {
 	background-color: #282B28;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Verdana';
+    font-family:'Helvetica';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -16,19 +16,25 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
 	color: #FFFFFF;
+    line-height: 1.25em;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Verdana';
+    font-size: 2.2em;
+    font-family:'Helvetica';
 	color: #FFFFFF;
 }
-p {
+h2 {
     font-size: 1.2em;
+    font-family:'Helvetica';
+	color: #97dccf;
+}
+p {
+    font-size: 1em;
 	font-family:'Helvetica';
-    line-height: 1.4em;
+    line-height: 1.25em;
     color: #FFFFFF;
 }
 footer {
@@ -50,4 +56,7 @@ ul.posts li {
 }
 .nav-current {
     color: #97dccf;
+}
+.container {
+	font-family:'Helvetica';
 }
