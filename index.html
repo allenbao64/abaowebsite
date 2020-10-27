@@ -45,17 +45,17 @@
 
 function noChange() {
     var imgElement = document.getElementById('candidate');
-	imgElement.src = "../images/2.png";
+	imgElement.src = "images/2.png";
 }
 
 function yesChange() {
     var imgElement = document.getElementById('candidate');
-	imgElement.src = "../images/3.png";
+	imgElement.src = "images/3.png";
 }
 
 function skip() {
     var imgElement = document.getElementById('candidate');
-	imgElement.src = "../images/4.png";
+	imgElement.src = "images/4.png";
 }
 
 /*
@@ -142,7 +142,7 @@ body {
 
 <body dragable="true"> 
     <center>Is this face <b><i>warm</i></b>?  </center> 
-    <img src="{{  image  }}" id="candidate" style="width:500px", height="500px"> 
+    <img src="images/1.png" id="candidate" style="width:500px", height="500px"> 
     <div class="yesno">
 		<button onclick="noChange();", style="width:100px","height:80px">No</button>
 		<button onclick="yesChange();", style="width:100px","height:80px">Yes</button>
